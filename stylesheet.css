@@ -1,0 +1,79 @@
+body {
+	font-family: Verdana;
+	margin: 0px;
+	color: #353435;
+}
+h1 {
+	font-family: "Titillium Web", sans-serif;
+	margin: 0px;
+}
+nav {
+	float: left;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	font-family: "Titillium Web", sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+header {
+	text-align: center;
+	background-color: #c489aa;
+	color: #fff;
+	width: 100%;
+}
+main {
+	float: right;
+	width: 80%;
+	padding-top: 8px;
+}
+button {
+	background-color: #c489aa;
+	border: 0px;
+	color: #fff;
+	border-radius: 3px;
+	font-family: "Titillium Web", sans-serif;
+}
+time {
+	font-style: italic;
+}
+ul {
+	list-style-position: inside;
+}
+nav ul {
+	list-style: none;
+	padding: 0px;
+}
+nav ul li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+nav a {
+	text-decoration: none;
+}
+.left {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+.right {
+	float: right;
+	width: 50%;
+	text-align: center;
+}
+#intro {
+	text-align: center;
+}
+
+#headshot {
+	width: 200px;
+	border-radius: 100%;
+	display: block;
+	margin: auto;
+}
+#resume ul {
+	list-style: none;
+}
+.title {
+	font-weight: bold;
+}
