@@ -47,6 +47,7 @@ a {
 nav {
 	float: left;
 	width: 20%;
+	min-width: 200px;
 	max-width: 250px;
 	height: 100%;
 	text-align: center;
@@ -56,19 +57,12 @@ nav {
 	display: inline-block;
 	position: fixed;
 }
-nav li:hover {
-	box-shadow: inset 250px 0 0 0 #D9BFB3;
-	border-left: solid 5px #821a18;
-	border-right: solid 10px #efe8da;
-	transition: box-shadow .25s ease-out;
-}
-nav ul {
+ul {
 	list-style: none;
 	padding: 0px;
 }
 nav ul li {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	height: 50px;
 }
 nav a {
 	text-decoration: none;
