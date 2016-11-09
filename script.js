@@ -8,6 +8,9 @@ $(document).ready(function() {
 	});
 //click
 	$("nav li").click(function() {
-		$(this).text("Clicked!").css( {"background-color": "#D9BFB3"});
+		$(this).toggleClass("newbg");
+		$(".newbg").text("Clicked!");
+
+		// $(this).text("Clicked!").css( {"background-color": "#D9BFB3"});
 	});
 }); //closer for .ready()
